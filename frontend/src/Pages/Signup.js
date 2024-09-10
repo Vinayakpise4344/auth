@@ -23,7 +23,7 @@ const Signup = () => {
     e.preventDefault();
    
     try{
-     const url = "http://localhost:1000/auth/signup";
+     const url = "https://auth-gold-omega.vercel.app/auth/signup";
      const response = await fetch(url,{
         method:"POST",
         headers:{
