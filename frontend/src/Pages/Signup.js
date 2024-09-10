@@ -38,7 +38,7 @@ const Signup = () => {
      if(sucess){
         alert("hello");
         setTimeout(()=>{
-            navigate('/login')
+            navigate('https://auth-gold-omega.vercel.app/auth/login')
         },1000)
      }
     }catch(err){
