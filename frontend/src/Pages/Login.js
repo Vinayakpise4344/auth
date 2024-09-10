@@ -24,7 +24,7 @@ const Login = () => {
     e.preventDefault();
    
     try{
-     const url = "http://localhost:1000/auth/login";
+     const url = "https://auth-gold-omega.vercel.app/auth/login";
      const response = await fetch(url,{
         method:"POST",
         headers:{
